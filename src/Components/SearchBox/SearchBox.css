@@ -1,0 +1,21 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px 55px ;
+}
+.input-field{
+    padding: 8px 15px;
+    font-size: 15px;
+    width: 250px;
+    border-width: 0;
+    background: #a592f2;
+    color: #f8f8f8;
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(231, 226, 226, 0.5);
+}
+.input-field::placeholder{
+    color: #ffffff;
+}
+.input-field:focus{
+    outline: none;
+}
